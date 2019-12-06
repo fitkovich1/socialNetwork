@@ -1,0 +1,16 @@
+.nav {
+    grid-area: n;
+    /*background-color: gold;*/
+    background: linear-gradient(169deg, rgba(0,0,0,0.9948354341736695) 46%, rgba(244,0,107,1) 64%);
+    padding: 20px;
+}
+.item a {
+    color: #0004ff;
+    text-decoration: none;
+}
+.item a.active {
+    color: #8b005b;
+}
+.friends{
+    padding-top: 50px;
+}

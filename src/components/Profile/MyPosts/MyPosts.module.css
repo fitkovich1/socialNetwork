@@ -1,0 +1,14 @@
+.postsBlock{
+    padding: 10px;
+}
+.posts{
+    margin-top: 10px;
+}
+
+.postsBlock button{
+    width: 100px;
+    height: 25px;
+    background-color: #8b005b;
+    color: #0004ff;
+    border-radius: 10px;
+}

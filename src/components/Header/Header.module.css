@@ -1,0 +1,7 @@
+.header {
+    grid-area: h;
+    background: linear-gradient(169deg, rgba(0,0,0,0.9948354341736695) 46%, rgba(244,0,107,1) 64%);
+}
+.header img {
+    width: 100px;
+}
