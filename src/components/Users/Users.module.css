@@ -48,13 +48,24 @@
     flex-direction: column;
     align-items: center;
 }
-.selectedPage{
+/*.selectedPage{
     font-weight: bold;
     font-size: 25px;
-}
-.pages span{
+}*/
+/*.paginator span{
     cursor: pointer;
     border: 1px solid #0004ff;
     border-radius: 5px;
     margin-right: 3px;
+}*/
+.paginator span{
+    margin: 10px;
+}
+.pageNumber{
+    padding: 2px;
+    border: 1px solid grey;
+}
+.pageNumber.selectedPage{
+    font-weight: bold;
+    border-color: black;
 }
