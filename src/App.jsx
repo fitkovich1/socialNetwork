@@ -41,7 +41,6 @@ class App extends Component {
                     <Route path='/music' component={Music}/>
                     <Route path='/settings' component={Settings}/>
                 </div>
-
             </div>
         );
     }
@@ -52,9 +51,7 @@ const mapStateToProps = (state) => ({
 });
 
 
-const AppContainer = compose(
-    withRouter,
-    connect(mapStateToProps, {initializeApp}))(App);
+const AppContainer = compose(withRouter, connect(mapStateToProps, {initializeApp}))(App);
 
 const SamuraiJSApp = (props) => {
     return <HashRouter>
